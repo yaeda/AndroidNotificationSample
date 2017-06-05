@@ -8,11 +8,29 @@
     >
 
   <Button
-      android:id="@+id/button"
+      android:id="@+id/btn_notify"
       android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:layout_centerInParent="true"
       android:text="Notify!"
+      />
+
+  <Button
+      android:id="@+id/btn_notification_color"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/btn_notify"
+      android:layout_centerHorizontal="true"
+      android:text="Change Notification Color"
+      />
+
+  <Button
+      android:id="@+id/btn_status_bar_color"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/btn_notification_color"
+      android:layout_centerHorizontal="true"
+      android:text="Change Status Bar Color"
       />
 
 </RelativeLayout>
